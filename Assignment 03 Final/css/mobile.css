@@ -1,0 +1,95 @@
+@media (max-width: 600px) {
+
+/* Navigation */
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    padding-top: .5rem;
+}
+
+.nav-item {
+    width: 100%;
+    border: none;
+    padding: .2rem 0;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.nav-main {
+    display: none;
+}
+
+/* About */
+
+#about .container {
+    grid: 1fr / 1fr;
+}
+
+#about #target {
+    padding: 2rem 0;
+}
+
+/* Job info */
+
+#job-info .container {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(6, 1fr); */
+}
+
+.hobby-list-container {
+    flex-direction: column;
+}
+
+/* Certificate */
+
+.cert-big-container {
+    grid-template-columns: 1fr;
+}
+
+.second-cert-img {
+    border-left: 0;
+    padding-left: 0;
+}
+
+/* Footer */
+
+#footer .container ul {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+    padding: .5rem;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* Projects */
+
+.project-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.project-basic-info {
+    height: 8rem;
+    width: auto;
+    border-top: 1px solid lightgray;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5%;
+    align-items: center;
+}
+
+.project-year {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#footer {
+    padding: 7rem 0 1rem 0;
+}
+
+}

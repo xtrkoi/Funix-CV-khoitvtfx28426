@@ -1,0 +1,56 @@
+@media (max-width: 900px) {
+
+section > .container{
+    width: 80%;
+    margin: auto;
+    display: block;
+
+    /* padding: 30px 50px; */
+    padding: 0;
+}
+
+.nav-main {
+    display: none;
+}
+
+.nav-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#job-info .container {
+    /* border: 2px solid black; */
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 30px;
+}
+
+.certificate-container {
+    flex-direction: column;
+}
+
+/* Projects */
+
+.project-basic-info {
+    height: 5rem;
+    width: auto;
+    border-top: 1px solid lightgray;
+
+    display: grid;
+    grid-template-columns: 1fr 1.75fr;
+    grid-template-rows: repeat(2, 1fr);
+    /* justify-content: space-around; */
+    padding: 5%;
+    align-items: center;
+}
+
+.project-year {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+}
